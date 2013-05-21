@@ -1,0 +1,3 @@
+class hexchat::config {
+
+}
