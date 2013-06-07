@@ -14,12 +14,12 @@
 #
 class hexchat::params {
 
-	### Application related parameters
+  ### Application related parameters
 
-	$package_name = $::operatingsystem ? {
-		default => 'hexchat'
-	}
+  $package_name = $::operatingsystem ? {
+    default => 'hexchat'
+  }
 
-	$enabled = true
+  $enabled = true
 
 }
